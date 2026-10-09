@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">唐尚宇2024110531</string>
+
+    <!-- 主界面按钮 -->
+    <string name="btn_activity1">启动Activity1（正向传参）</string>
+    <string name="btn_activity2">启动Activity2（返回数据）</string>
+    <string name="btn_activity3">启动Activity3（相机拍照）</string>
+    <string name="btn_activity4">启动Activity4（秒表）</string>
+
+    <!-- 正向传参 -->
+    <string name="pass_value_title">接收到的参数</string>
+    <string name="pass_value_content">这是从 MainActivity 传递过来的参数</string>
+    <string name="pass_value_empty">未接收到参数</string>
+
+    <!-- 返回数据 -->
+    <string name="return_input_hint">请输入要返回的内容</string>
+    <string name="return_confirm">确定</string>
+    <string name="return_received_prefix">MainActivity 收到返回内容：</string>
+    <string name="return_empty_hint">请输入内容后再确定</string>
+
+    <!-- 相机拍照 -->
+    <string name="camera_take_photo">拍照</string>
+    <string name="camera_no_app">未找到可用的相机应用</string>
+
+    <!-- 秒表 -->
+    <string name="stopwatch_start">开始</string>
+    <string name="stopwatch_pause">暂停</string>
+    <string name="stopwatch_reset">重置</string>
+    <string name="stopwatch_default">00:00.0</string>
+</resources>
