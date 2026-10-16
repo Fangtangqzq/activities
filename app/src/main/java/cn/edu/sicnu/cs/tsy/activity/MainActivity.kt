@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnActivity1.setOnClickListener {
             val intent = Intent(this, SecondActivity1::class.java)
-            intent.putExtra(SecondActivity1.EXTRA_MESSAGE, getString(R.string.pass_value_content))
+            intent.putExtra(SecondActivity1.EXTRA_MESSAGE, binding.etInput.text.toString())
             startActivity(intent)
         }
 

@@ -10,6 +10,7 @@
     <!-- 正向传参 -->
     <string name="pass_value_title">接收到的参数</string>
     <string name="pass_value_content">这是从 MainActivity 传递过来的参数</string>
+    <string name="pass_value_hint">请输入要传递的内容</string>
     <string name="pass_value_empty">未接收到参数</string>
 
     <!-- 返回数据 -->
